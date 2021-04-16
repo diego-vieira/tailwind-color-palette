@@ -126,10 +126,10 @@ $tw_colors: (
   @each $tw_color_pallet_number,
     $tw_color_pallet_hex in ($tw_color_pallet_values)
   {
-    .tw-bg-#{$tw_color_pallet}-#{$tw_color_pallet_number} {
+    .bg-#{$tw_color_pallet}-#{$tw_color_pallet_number} {
       background-color: $tw_color_pallet_hex !important;
     }
-    .tw-text-#{$tw_color_pallet}-#{$tw_color_pallet_number} {
+    .text-#{$tw_color_pallet}-#{$tw_color_pallet_number} {
       color: $tw_color_pallet_hex !important;
     }
   }
