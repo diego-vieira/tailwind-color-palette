@@ -15,8 +15,5 @@
   "scripts": {
     "sass": "node-sass -w scss/ -o css/"
   },
-  "devDependencies": {
-    "node-sass": "^4.14.0"
-  },
   "packageManager": "yarn@4.1.0"
 }
